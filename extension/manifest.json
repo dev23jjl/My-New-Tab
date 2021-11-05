@@ -1,0 +1,29 @@
+{
+  "manifest_version": 2,
+
+  "name": "Neverfade New Tab",
+  "description": "Beatiful Time and Date in the New Tab",
+  "browser_action": {
+    "default_icon": "icon.png"
+  },
+  "icons": {
+      "48": "icon.png",
+      "128": "icon.png"
+  },
+  "version": "1.0",
+  "chrome_url_overrides" : {
+    "newtab": "new-tab.html"
+  },
+
+  "permissions": [
+    "alarms",
+    "storage"
+  ],
+
+  "background": {
+    "scripts": [
+      "script.js"
+    ],
+    "persistent": false
+  }
+}
