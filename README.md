@@ -1,8 +1,8 @@
 ## My New Tab - an extension for Google Chrome (or other Chromium browsers)
 
-### A basic and minimalistic new tab extension for Chrome built from HTML 5, CSS, and JavaScript.
+### A basic and minimalistic new tab extension for Chrome built from HTML, CSS, and JavaScript.
 
-Based on [Neverfade Time and Date](https://github.com/dev23jjl/timeanddate).
+Based on [Time and Date](https://github.com/dev23jjl/timeanddate).
 
 To use, download repository files.
 
@@ -14,4 +14,4 @@ Click load unpacked
 
 Select the extension folder
 
-That should change your New Tab to a Neverfade Time and Date like clock! ;)
+That should change your New Tab to a "Time and Date"-like clock! 😉
