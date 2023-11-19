@@ -15,3 +15,5 @@ Click load unpacked
 Select the extension folder
 
 That should change your New Tab to a "Time and Date"-like clock! 😉
+
+(Or, just don't waste your time with this pathetic excuse of a new tab extension)
