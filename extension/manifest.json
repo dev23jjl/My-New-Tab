@@ -3,12 +3,12 @@
 
   "name": "My New Tab",
   "description": "Minimal, RAM-hogging, Time and Date in the New Tab",
-  "browser_action": {
-    "default_icon": "https://api.iconify.design/material-symbols:auto-timer-rounded.svg"
+  "action": {
+    "default_icon": "icon.svg"
   },
   "icons": {
-      "48": "https://api.iconify.design/material-symbols:auto-timer-rounded.svg",
-      "128": "https://api.iconify.design/material-symbols:auto-timer-rounded.svg"
+      "48": "icon.svg",
+      "128": "icon.svg"
   },
   "version": "2.0",
   "chrome_url_overrides" : {
@@ -19,7 +19,7 @@
     "storage"
   ],
 
- "background": {
-    "service_worker": "script.js",
-    "type": "module"
+  "background": {
+    "service_worker": "script.js"
   }
+}
